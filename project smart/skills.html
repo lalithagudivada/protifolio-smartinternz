@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <style>
+      body,
+      h1,
+      h2,
+      p,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+      }
+
+      .skills-section {
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        margin: 2rem;
+      }
+
+      .skills-title {
+        font-size: 2rem;
+        color: rgb(107, 107, 232);
+        margin-bottom: 1rem;
+      }
+
+      .skill-container {
+        margin-bottom: 2rem;
+      }
+
+      .skill-heading {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .skill {
+        margin-bottom: 1.5rem;
+      }
+
+      .skill-name {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .skill-level {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+      }
+
+      .skill-label {
+        flex: 1;
+      }
+
+      .skill-bar {
+        flex: 3;
+        background-color: #f2f2f2;
+        height: 15px;
+        border-radius: 7px;
+        position: relative;
+        margin-left: 10px;
+      }
+
+      .skill-fill-basic {
+        height: 100%;
+        border-radius: 10px;
+        background-color: #f9a825;
+        width: 30%; /* Adjust for basics level */
+      }
+
+      .skill-fill-intermediate {
+        height: 100%;
+        border-radius: 10px;
+        background-color: #4caf50;
+        width: 60%; /* Adjust for intermediate level */
+      }
+
+      .skill-fill-expert {
+        height: 100%;
+        border-radius: 10px;
+        background-color: #e53935;
+        width: 90%; /* Adjust for expert level */
+      }
+      .skills-section {
+        box-shadow: 0px 5px 20px rgba(45, 167, 215, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="skills-section">
+      <h2 class="skills-title">Skills</h2>
+
+      <div class="skill-container">
+        <h3 class="skill-heading">Programming Languages</h3>
+        <div class="skill">
+          <div class="skill-name">C Programming</div>
+          <div class="skill-level">
+            <div class="skill-label">Basics</div>
+            <div class="skill-bar">
+              <div class="skill-fill-basic"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Java</div>
+          <div class="skill-level">
+            <div class="skill-label">Intermediate</div>
+            <div class="skill-bar">
+              <div class="skill-fill-intermediate"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Python</div>
+          <div class="skill-level">
+            <div class="skill-label">Expert</div>
+            <div class="skill-bar">
+              <div class="skill-fill-expert"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <h3 class="skill-heading">Technologies</h3>
+        <div class="skill">
+          <div class="skill-name">ReactJS</div>
+          <div class="skill-level">
+            <div class="skill-label">Intermediate</div>
+            <div class="skill-bar">
+              <div class="skill-fill-intermediate"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Node.js</div>
+          <div class="skill-level">
+            <div class="skill-label">Expert</div>
+            <div class="skill-bar">
+              <div class="skill-fill-expert"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

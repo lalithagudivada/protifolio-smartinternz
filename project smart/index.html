@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Your Portfolio</title>
+    <style>
+      .centered,
+      header {
+        background-image: url("https://img.freepik.com/free-photo/sky-sunset_1203-1666.jpg?q=10&h=200");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="centered">
+        <div>
+          <h1>Hi ,I am  <span class="name" id="nn"></span></h1>
+          
+          <h5><a href="https://cdn-images.zety.com/templates/zety/minimo-4-classic-blue-navy-200@3x.png" class="nav-button">resume</a></h5>
+          <h3><span id="element"></span></h3>
+        </div>         
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#nn", {
+        strings: ["Lalitha", "Vijaya", "Bhavya","Hithasri","Geetha"],
+        typeSpeed:200,
+        loop: true,
+      });
+    </script>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Programmer", "Web Developer", "ML Enthusiast"],
+        typeSpeed: 200,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
